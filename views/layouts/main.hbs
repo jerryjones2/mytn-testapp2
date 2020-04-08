@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>{{pageTitle}}</title>
+        {{> header}}
+
+    </head>
+    <body>
+    
+        <!-- 
+        
+             <div id="bd-wrap" class="container">
+        -->
+            {{> headerHtml}}
+
+            {{> navbar}}
+       
+            <!-- 
+            <div id="bd-wrap" class="container">
+            <div class="container-fluid">
+            <div class="tn-panel">
+            -->
+            <div class="tn-panel">
+                <!--
+                <div class="tn-panel">
+                -->
+                    <div class="tn-pagetitle">
+                        <h1>{{pageTitle}}</h1>
+                    </div>
+                    {{{ body }}}
+                <!--
+                </div>
+                -->
+            <!-- 
+            </div>
+            -->
+            
+          </div>  
+        
+        {{> footerHtml}}
+        <!-- 
+</div>
+        -->
+        
+        
+         
+        {{> footer}}
+    
+    </body>
+</html>
