@@ -1,6 +1,6 @@
 {
   "realm": "MyTN",
-  "auth-server-url": "https://sso-tn-sso-dev.apps.non-production.a7p1.p1.openshiftapps.com/auth",
+  "auth-server-url": "https://sso-tn-sso-dev-persistent.apps.non-production.a7p1.p1.openshiftapps.com/auth",
   "ssl-required": "external",
   "resource": "mytn-oauth",
   "public-client": true,
